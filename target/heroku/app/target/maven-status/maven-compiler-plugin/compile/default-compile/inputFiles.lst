@@ -1,0 +1,14 @@
+/Users/jonatan.leti/Documents/despegar/workspaces/wheater-prediction/weather-prediction-jl-ml/src/main/java/com/ml/weather/prediction/front/route/FrontPagesRouter.java
+/Users/jonatan.leti/Documents/despegar/workspaces/wheater-prediction/weather-prediction-jl-ml/src/main/java/com/ml/weather/prediction/main/job/GalaxyWeatherPredictionJob.java
+/Users/jonatan.leti/Documents/despegar/workspaces/wheater-prediction/weather-prediction-jl-ml/src/main/java/com/ml/weather/prediction/domain/PlanetDTO.java
+/Users/jonatan.leti/Documents/despegar/workspaces/wheater-prediction/weather-prediction-jl-ml/src/main/java/com/ml/weather/prediction/services/GalaxyWeatherService.java
+/Users/jonatan.leti/Documents/despegar/workspaces/wheater-prediction/weather-prediction-jl-ml/src/main/java/com/ml/weather/prediction/front/servlet/HomeServlet.java
+/Users/jonatan.leti/Documents/despegar/workspaces/wheater-prediction/weather-prediction-jl-ml/src/main/java/com/ml/weather/prediction/domain/GalaxyWeatherDTO.java
+/Users/jonatan.leti/Documents/despegar/workspaces/wheater-prediction/weather-prediction-jl-ml/src/main/java/com/ml/weather/prediction/front/route/WeatherPredictionRouter.java
+/Users/jonatan.leti/Documents/despegar/workspaces/wheater-prediction/weather-prediction-jl-ml/src/main/java/com/ml/weather/prediction/domain/PlanetsPosition.java
+/Users/jonatan.leti/Documents/despegar/workspaces/wheater-prediction/weather-prediction-jl-ml/src/main/java/com/ml/weather/prediction/services/GalaxyWeatherHelper.java
+/Users/jonatan.leti/Documents/despegar/workspaces/wheater-prediction/weather-prediction-jl-ml/src/main/java/com/ml/weather/prediction/domain/WeatherStatus.java
+/Users/jonatan.leti/Documents/despegar/workspaces/wheater-prediction/weather-prediction-jl-ml/src/main/java/com/ml/weather/prediction/main/module/MainModule.java
+/Users/jonatan.leti/Documents/despegar/workspaces/wheater-prediction/weather-prediction-jl-ml/src/main/java/com/ml/weather/prediction/main/Main.java
+/Users/jonatan.leti/Documents/despegar/workspaces/wheater-prediction/weather-prediction-jl-ml/src/main/java/com/ml/weather/prediction/db/GalaxyWeatherDAO.java
+/Users/jonatan.leti/Documents/despegar/workspaces/wheater-prediction/weather-prediction-jl-ml/src/main/java/com/ml/weather/prediction/main/module/RouterModule.java
