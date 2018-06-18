@@ -1,0 +1,18 @@
+# [START runtime]
+runtime: java
+env:    flex
+
+handlers:
+- url: /.*
+  script: this field is required, but ignored
+
+# [START env_variables]
+env_variables:    # Logging options
+  JAVA_OPTS: >-
+    -D.level=INFO
+# [END env_variables]
+# [END runtime]
+
+runtime_config:   # Optional
+  jdk: openjdk8
+  server: jetty9
