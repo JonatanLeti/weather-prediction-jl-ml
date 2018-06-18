@@ -15,7 +15,7 @@ import org.eclipse.jetty.servlet.ServletContextHandler;
 @Slf4j
 public class Main {
 
-    private static final int DEFAULT_PORT = 9290;
+    private static final int DEFAULT_PORT = 8080;
 
     public Main() {
     }
