@@ -111,12 +111,6 @@
         </dependency>
 
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>4.0.1</version>
-        </dependency>
-
-        <dependency>
             <groupId>com.sun.jersey</groupId>
             <artifactId>jersey-bundle</artifactId>
             <version>${jersey.version}</version>
@@ -283,6 +277,19 @@
                 </goals>
             </execution>
         </executions>
+    </plugin>
+    <plugin>
+        <groupId>com.heroku.sdk</groupId>
+        <artifactId>heroku-maven-plugin</artifactId>
+        <version>0.4.4</version>
+        <configuration>
+            <jdkVersion>1.8</jdkVersion>
+            <appName>${artifactId}</appName>
+            <processTypes>
+                <web>java -Dserver.port=$PORT -jar ./target/${artifactId}-${version}.jar
+                </web>
+            </processTypes>
+        </configuration>
     </plugin>
 </plugins>
 </build>

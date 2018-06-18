@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar $PATH_TO_JAR
+web: java -Dserver.port=$PORT -jar ./target/weather-prediction-jl-ml-1.0.0-SNAPSHOT.jar
