@@ -1,18 +1,23 @@
-# [START runtime]
 runtime: java
-env:    flex
+env: flex
 
 handlers:
 - url: /.*
   script: this field is required, but ignored
-
-# [START env_variables]
-env_variables:    # Logging options
-  JAVA_OPTS: >-
-    -D.level=INFO
-# [END env_variables]
-# [END runtime]
-
-runtime_config:   # Optional
+runtime_config:  # Optional
   jdk: openjdk8
   server: jetty9
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 1
+  memory_gb: 3.35
+beta_settings:
+  enable_app_engine_apis: true
+health_check:
+  enable_health_check: true
+  check_interval_sec: 50
+  timeout_sec: 30
+  unhealthy_threshold: 10
+  healthy_threshold: 5
+  restart_threshold: 60
