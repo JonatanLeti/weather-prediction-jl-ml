@@ -289,7 +289,7 @@
                     <jdkVersion>1.8</jdkVersion>
                     <appName>${artifactId}</appName>
                     <processTypes>
-                        <web>java -Dserver.port=$PORT -jar ./target/${artifactId}-${version}-jar-with-dependencies.jar
+                        <web>java -jar ./target/${artifactId}-${version}-jar-with-dependencies.jar
                         </web>
                     </processTypes>
                 </configuration>
