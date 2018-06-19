@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/dependency/jetty-runner.jar --port $PORT target/*.war
+java -Dserver.port=$PORT -jar ./target/weather-prediction-jl-ml-1.0.0-SNAPSHOT-jar-with-dependencies.jar
